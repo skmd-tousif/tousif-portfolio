@@ -7,18 +7,18 @@ function Skills() {
 
   const skillsData = {
     languages: [
-      { name: 'C', level: 90, years: 4 },
-      { name: 'C++', level: 85, years: 3 },
-      { name: 'Python', level: 80, years: 3 },
-      { name: 'Java', level: 75, years: 2 },
-      { name: 'JavaScript', level: 85, years: 3 },
-      { name: 'C#', level: 70, years: 2 }
+      { name: 'C', level: 70, years: 4 },
+      { name: 'C++', level: 65, years: 3 },
+      { name: 'Python', level: 60, years: 3 },
+      { name: 'Java', level: 65, years: 2 },
+      { name: 'JavaScript', level: 55, years: 3 },
+      { name: 'C#', level: 70, years: 1 }
     ],
     frontend: [
-      { name: 'React', level: 85, years: 2 },
+      { name: 'React', level: 65, years: 2 },
       { name: 'HTML/CSS', level: 90, years: 4 },
       { name: 'Bootstrap', level: 80, years: 2 },
-      { name: 'jQuery', level: 75, years: 2 }
+      { name: 'jQuery', level: 65, years: 2 }
     ],
     backend: [
       { name: 'PHP', level: 80, years: 2 },
@@ -29,7 +29,7 @@ function Skills() {
       { name: 'Git', level: 80, years: 3 },
       { name: 'MATLAB', level: 75, years: 2 },
       { name: 'WordPress', level: 70, years: 2 },
-      { name: 'VS Code', level: 90, years: 3 }
+      { name: 'VS Code', level: 90, years: 4 }
     ]
   };
 

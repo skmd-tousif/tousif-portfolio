@@ -12,13 +12,14 @@ function Projects() {
         'CRUD operations for user profiles and project tracking',
         'CSV bulk import/export reduced manual entry by 70%',
         'jQuery/AJAX for live validation, search, and pagination',
-        'Invoice generation and management system'
+        'Invoice generation and management system',
+        'Preview is Unavailable as it is a private project Made for PACE assighnments as a part of my freelancing work'
       ],
       technologies: ['PHP', 'MySQL', 'jQuery', 'JavaScript', 'HTML/CSS', 'Bootstrap'],
       category: 'fullstack',
-      github: '#',
+      github: 'https://github.com/skmd-tousif/admin_portal',
       demo: '#',
-      image: `${process.env.PUBLIC_URL}/images/project-crm.jpg`
+      image: `${process.env.PUBLIC_URL}/images/project-crm.png`
     },
     {
       title: 'Portfolio Website',
@@ -33,23 +34,9 @@ function Projects() {
       category: 'frontend',
       github: 'https://github.com/skmd-tousif/tousif-portfolio',
       demo: 'https://skmd-tousif.github.io/tousif-portfolio/',
-      image: `${process.env.PUBLIC_URL}/images/project-portfolio.jpg`
+      image: `${process.env.PUBLIC_URL}/images/project-portfolio.png`
     },
-    {
-      title: 'Algorithm Visualizer',
-      description: 'Interactive web application for visualizing various algorithms and data structures with step-by-step execution.',
-      features: [
-        'Visualization of sorting algorithms',
-        'Pathfinding algorithm demonstrations',
-        'Step-by-step execution control',
-        'Educational explanations and complexity analysis'
-      ],
-      technologies: ['React', 'D3.js', 'JavaScript', 'CSS3', 'Algorithms'],
-      category: 'frontend',
-      github: '#',
-      demo: '#',
-      image: `${process.env.PUBLIC_URL}/images/project-algo.jpg`
-    }
+    
   ];
 
   const filters = [
@@ -90,13 +77,15 @@ function Projects() {
                 <img src={project.image} alt={project.title} />
                 <div className="project-overlay">
                   <div className="project-actions">
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer" className="action-btn">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
-                        <path fill="none" d="M0 0h24v24H0z"/>
-                        <path d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6zm11-3v8h-2V6.413l-7.793 7.794-1.414-1.414L17.585 5H13V3h8z" fill="currentColor"/>
-                      </svg>
-                      Live Demo
-                    </a>
+                    {project.demo !== '#' && (
+                      <a href={project.demo} target="_blank" rel="noopener noreferrer" className="action-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                          <path fill="none" d="M0 0h24v24H0z"/>
+                          <path d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6zm11-3v8h-2V6.413l-7.793 7.794-1.414-1.414L17.585 5H13V3h8z" fill="currentColor"/>
+                        </svg>
+                        Live Demo
+                      </a>
+                    )}
                     <a href={project.github} target="_blank" rel="noopener noreferrer" className="action-btn">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
                         <path fill="none" d="M0 0h24v24H0z"/>
