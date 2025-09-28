@@ -36,6 +36,25 @@ function Projects() {
       demo: 'https://skmd-tousif.github.io/tousif-portfolio/',
       image: `${process.env.PUBLIC_URL}/images/project-portfolio.png`
     },
+    {
+  title: 'Todo App with Firebase',
+  description: 'A full-stack todo application with user authentication, real-time data sync, and advanced task management features. Includes guest mode and verified user accounts with email verification.',
+  features: [
+    'User authentication with email/password',
+    'Email verification system with auto-delete protection',
+    'Real-time data synchronization with Firebase',
+    'Advanced task management with due dates and times',
+    'Task filtering (all, approaching, overdue, completed, no due date)',
+    'Guest mode for trying without registration',
+    'Responsive design for all devices',
+    'Account management (delete account, logout)'
+  ],
+  technologies: ['React', 'Vite', 'Firebase Auth', 'Firestore', 'JavaScript', 'CSS3', 'HTML5'],
+  category: 'fullstack',
+  github: 'https://github.com/skmd-tousif/todo-app',
+  demo: 'https://skmd-tousif.github.io/todo-app',
+  image: `${process.env.PUBLIC_URL}/images/project-todo-app.png`
+}
     
   ];
 
