@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tousif-portfolio/static/css/main.5145fbf5.css",
-    "main.js": "/tousif-portfolio/static/js/main.0b736eda.js",
+    "main.js": "/tousif-portfolio/static/js/main.0c766a2c.js",
     "static/css/655.edd8e7d2.chunk.css": "/tousif-portfolio/static/css/655.edd8e7d2.chunk.css",
     "static/js/655.ef0f71a2.chunk.js": "/tousif-portfolio/static/js/655.ef0f71a2.chunk.js",
     "static/css/806.2ca72b9d.chunk.css": "/tousif-portfolio/static/css/806.2ca72b9d.chunk.css",
@@ -9,7 +9,7 @@
     "static/css/277.d297aa56.chunk.css": "/tousif-portfolio/static/css/277.d297aa56.chunk.css",
     "static/js/277.a5e95569.chunk.js": "/tousif-portfolio/static/js/277.a5e95569.chunk.js",
     "static/css/454.b09a4eb4.chunk.css": "/tousif-portfolio/static/css/454.b09a4eb4.chunk.css",
-    "static/js/454.ef30a585.chunk.js": "/tousif-portfolio/static/js/454.ef30a585.chunk.js",
+    "static/js/454.3cbdb527.chunk.js": "/tousif-portfolio/static/js/454.3cbdb527.chunk.js",
     "static/css/923.ba864533.chunk.css": "/tousif-portfolio/static/css/923.ba864533.chunk.css",
     "static/js/923.9895e9a2.chunk.js": "/tousif-portfolio/static/js/923.9895e9a2.chunk.js",
     "static/css/250.4ad6ac1a.chunk.css": "/tousif-portfolio/static/css/250.4ad6ac1a.chunk.css",
@@ -20,7 +20,7 @@
     "static/js/937.2400dd52.chunk.js": "/tousif-portfolio/static/js/937.2400dd52.chunk.js",
     "index.html": "/tousif-portfolio/index.html",
     "main.5145fbf5.css.map": "/tousif-portfolio/static/css/main.5145fbf5.css.map",
-    "main.0b736eda.js.map": "/tousif-portfolio/static/js/main.0b736eda.js.map",
+    "main.0c766a2c.js.map": "/tousif-portfolio/static/js/main.0c766a2c.js.map",
     "655.edd8e7d2.chunk.css.map": "/tousif-portfolio/static/css/655.edd8e7d2.chunk.css.map",
     "655.ef0f71a2.chunk.js.map": "/tousif-portfolio/static/js/655.ef0f71a2.chunk.js.map",
     "806.2ca72b9d.chunk.css.map": "/tousif-portfolio/static/css/806.2ca72b9d.chunk.css.map",
@@ -28,7 +28,7 @@
     "277.d297aa56.chunk.css.map": "/tousif-portfolio/static/css/277.d297aa56.chunk.css.map",
     "277.a5e95569.chunk.js.map": "/tousif-portfolio/static/js/277.a5e95569.chunk.js.map",
     "454.b09a4eb4.chunk.css.map": "/tousif-portfolio/static/css/454.b09a4eb4.chunk.css.map",
-    "454.ef30a585.chunk.js.map": "/tousif-portfolio/static/js/454.ef30a585.chunk.js.map",
+    "454.3cbdb527.chunk.js.map": "/tousif-portfolio/static/js/454.3cbdb527.chunk.js.map",
     "923.ba864533.chunk.css.map": "/tousif-portfolio/static/css/923.ba864533.chunk.css.map",
     "923.9895e9a2.chunk.js.map": "/tousif-portfolio/static/js/923.9895e9a2.chunk.js.map",
     "250.4ad6ac1a.chunk.css.map": "/tousif-portfolio/static/css/250.4ad6ac1a.chunk.css.map",
@@ -40,6 +40,6 @@
   },
   "entrypoints": [
     "static/css/main.5145fbf5.css",
-    "static/js/main.0b736eda.js"
+    "static/js/main.0c766a2c.js"
   ]
 }
