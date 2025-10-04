@@ -9,14 +9,14 @@ function Contact() {
 
   useEffect(() => {
     // Initialize EmailJS with your public key
-    emailjs.init('dHZWYZnfckAyDh553');  // Replace with your EmailJS Public Key
+    emailjs.init('uA4PjWNOOvyBNDJSz');  // Replace with your EmailJS Public Key
   }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_i8541tp', 'template_rd792tr', form.current)  // Replace with your Service ID and Template ID
+      .sendForm('service_w7sgzbu', 'template_3ux287g', form.current)  // Replace with your Service ID and Template ID
       .then(
         (result) => {
           console.log('Message sent:', result.text);
