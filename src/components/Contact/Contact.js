@@ -14,7 +14,7 @@ function Contact() {
   });
 
   useEffect(() => {
-    emailjs.init('dHZWYZnfckAyDh553');
+    emailjs.init('uA4PjWNOOvyBNDJSz');
   }, []);
 
   const handleInputChange = (e) => {
@@ -31,7 +31,7 @@ function Contact() {
     setError(null);
 
     emailjs
-      .sendForm('service_i8541tp', 'template_rd792tr', form.current)
+      .sendForm('service_w7sgzbu', 'template_3ux287g', form.current)
       .then(
         (result) => {
           console.log('Message sent:', result.text);
