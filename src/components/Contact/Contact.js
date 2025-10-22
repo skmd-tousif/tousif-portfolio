@@ -75,7 +75,7 @@ function Contact() {
       icon: '💼',
       title: 'LinkedIn',
       value: 'Sk Md Tousif',
-      link: 'https://www.linkedin.com/in/sk-md-tousif-2a1b30257/'
+      link: 'https://www.linkedin.com/in/sk-md-tousif-8ab068254/'
     },
     {
       icon: '⚡',
