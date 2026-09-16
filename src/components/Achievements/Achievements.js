@@ -33,6 +33,12 @@ function Achievements() {
     ],
     academic: [
       {
+        title: 'GATE 2026',
+        event: 'Graduate Aptitude Test in Engineering',
+        date: '2026',
+        description: 'AIR 2576 with score 621/1000 in Computer Science and Information Technology'
+      },
+      {
         title: 'GATE 2025',
         event: 'Graduate Aptitude Test in Engineering',
         date: '2025',

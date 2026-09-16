@@ -6,11 +6,11 @@ function Academics() {
 
   const academicData = [
     {
-      year: '2022 – Present',
+      year: '2022 – 2026',
       degree: 'B.Tech Computer Science & Engineering',
       institute: 'Kalyani Government Engineering College',
-      score: '8.15/10 CGPA',
-      details: 'Currently pursuing Bachelor of Technology with focus on algorithms, data structures, and web technologies.'
+      score: '8.33/10 CGPA',
+      details: 'Bachelor of Technology with focus on algorithms, data structures, and web technologies.'
     },
     {
       year: '2022',

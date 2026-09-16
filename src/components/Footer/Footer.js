@@ -2,6 +2,7 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import './Footer.css';
 
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 

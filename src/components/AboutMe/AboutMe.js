@@ -52,7 +52,7 @@ function AboutMe() {
           
           <p className="about-description">
             Passionate developer and competitive programmer with expertise in full-stack development 
-            and problem-solving. Currently pursuing B.Tech in Computer Science and Engineering with 
+            and problem-solving. B.Tech Graduate in Computer Science and Engineering with 
             a strong foundation in algorithms and web technologies.
           </p>
           
